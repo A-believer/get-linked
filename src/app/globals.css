@@ -77,19 +77,19 @@ body {
   
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #888;
+    background: #150E28;
     border-radius: 5px;
 }
   
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #000;
+    background: #903AFF;
     border-radius: 5px;
 }
   
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #D434FE;
 }
 
 @layer components {
