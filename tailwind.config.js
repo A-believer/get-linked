@@ -14,6 +14,12 @@ module.exports = {
       "purII": "#903AFF",
       "purIII": "#D434FE"
     },
+    fontFamily: {
+      "monts": ['Montserrat', 'sans-serif'],
+      "unca": ['Unica One', 'cursive'],
+      "clash": ['Clash Display', 'sans-serif'],
+      "inter": ['Inter', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
