@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
       <body className={`bg-purI text-[#FFF]`}>
         <Navbar/>
         {children}
-        <Footer/>
       </body>
     </html>
   )

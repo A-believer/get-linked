@@ -102,4 +102,8 @@ body {
   .active-register {
     @apply bg-gradient-to-t from-[#D434FE] to-[#903AFF]
   }
+
+  .timeline {
+    @apply bg-gradient-to-tl from-[#903AFF] to-[#D434FE]
+  }
 }
