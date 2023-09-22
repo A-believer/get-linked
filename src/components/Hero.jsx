@@ -1,18 +1,18 @@
 "use client"
 
 import Image from "next/image"
-import chain from "../assets/heroChain.png"
-import bomb from "../assets/bombHero.png"
-import bulb from "../assets/heroLightBulb.png"
-import star from "../assets/heroI.png"
-import person from "../assets/heroII.png"
+import chain from "../../public/heroChain.png"
+import bomb from "../../public/bombHero.png"
+import bulb from "../../public/heroLightBulb.png"
+import star from "../../public/heroI.png"
+import perso from "../../public/heroII.png"
 import Link from "next/link"
 
 export default function Hero() {
   return (
       <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 xl:pl-32 lg:pl-20  xl:pr-0 px-8 border-b border-[#fff]/20">
-          <div className="relative flex flex-col self-end lg:mr-14 mr-5">
-              <p className="font-monts font-bold italic lg:text-4xl text-base whitespace-nowrap">Igniting a Revolution in HR Innovation</p>
+          <div className="relative flex flex-col self-end lg:mr-14 mr-">
+              <p className="font-monts font-bold italic lg:text-4xl text-base lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
               <div className="lg:w-[253px] w-[115px] lg:h-[11px] h-[7px] self-end">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 17" fill="none">
   <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/>
@@ -28,9 +28,9 @@ export default function Hero() {
                   
                   <div className="text-center xl:text-left flex flex-col gap-y-2">
                       
-                      <p className="xl:text-[80px] md:text-[64px] sm:text-[40px] text-[32px] font-clash font-bold whitespace-nowrap lg:-mb-8 ">getlinked Tech</p>
+                      <p className="xl:text-[80px] md:text-[64px] sm:text-[40px] text-[32px] font-clash font-bold whitespace-nowrap md:-mb-8 ">getlinked Tech</p>
                       
-                      <p className="lg:text-[80px] text-[32px] font-clash font-bold whitespace-nowrap">Hackathon{" "}
+                      <p className="lg:text-[80px] md:text-[64px] sm:text-[40px] text-[32px] font-clash font-bold whitespace-nowrap">Hackathon{" "}
                     <span className="text-purII">1.0</span>
                     <Image src={chain} alt="chain" className="lg:w-[86px] w-8 lg:h-[86px] h-8 object-contain inline"/>
                     <Image src={bomb} alt="bomb" className="lg:w-[58px] w-[22px] lg:h-[58px] h-[22px] object-contain inline"/>
@@ -58,7 +58,7 @@ export default function Hero() {
               </div>
               
               <div className="relative">
-                  <Image src={person} alt="vr-person" className="lg:w-[828px] w-[420px] lg:h-[600px] h-[362px] object-contain"/>
+                  <Image src={perso} alt="person" className="lg:w-[828px] w-[420px] lg:h-[600px] h-[362px] object-contain"/>
                   <Image src={star} alt="stars" className="lg:w-[667px] w-[338px] lg:h-[641px] h-[324px] object-contain absolute top-0 z-[9999] opacity-80"/>
               </div>
           
