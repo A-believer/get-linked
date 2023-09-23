@@ -28,7 +28,7 @@ export default function FAQs() {
                 <span className="text-purIII"><BiPlus/></span>
             </li>
             <li className="flex justify-between items-center border-b border-purIII pb-4 xl:gap-x-5 gap-x-3">
-                <span>What happens if I don't have an idea for a project?</span>
+                <span>What happens if I don&lsquo;t have an idea for a project?</span>
                 <span className="text-purIII"><BiPlus/></span>
             </li>
             <li className="flex justify-between items-center border-b border-purIII pb-4 xl:gap-x-5 gap-x-3">

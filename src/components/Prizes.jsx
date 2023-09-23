@@ -15,7 +15,7 @@ export default function Prizes() {
               </p>
           </div>
 
-          <div className="flex lg:flex-row flex-col items-center gap-x-[30px] relative">
+          <div className="flex xl:flex-row flex-col items-center gap-x-[30px] relative">
               <Image src={prizesI} alt="prizesI" className="md:w-[548px] w-[321px] md:h-[482px] h-[282px] object-cover lg:self-start self-auto lg:mb-52 md:mb-36 mb-28" />
               
               <div className="relative flex md:gap-x-[30px] gap-x-3">

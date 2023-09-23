@@ -64,11 +64,11 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
   font-family: 'Clash Display', sans-serif;
+  margin: 0;
 }
 
 ::-webkit-scrollbar {

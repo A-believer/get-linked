@@ -15,7 +15,7 @@ export default function Introduction() {
         <Title
                   text1={`Introduction to getlinked tech`}
                   text2={`Hackathon 1.0`} />    
-              <p>Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a  design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!
+              <p>Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you&lsquo;re a coding genius, a  design maverick, or a concept wizard, you&lsquo;ll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, thats what we&lsquo;re all about!
               </p>
       </div>
     </section>
