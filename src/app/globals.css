@@ -69,6 +69,7 @@
 body {
   font-family: 'Clash Display', sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
