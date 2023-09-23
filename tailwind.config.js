@@ -20,7 +20,11 @@ module.exports = {
       "clash": ['Clash Display', 'sans-serif'],
       "inter": ['Inter', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "prizeBg": "url('/public/prizesBg.png')"
+      }
+    },
   },
   plugins: [],
 }

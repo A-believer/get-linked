@@ -15,7 +15,7 @@ export default function Hero() {
               <p className="font-monts font-bold italic lg:text-4xl text-base lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
               <div className="lg:w-[253px] w-[115px] lg:h-[11px] h-[7px] self-end">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 17" fill="none">
-  <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" stroke-width="5"/>
+  <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" strokeWidth="5"/>
 </svg>
               </div>
           </div>

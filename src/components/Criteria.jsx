@@ -12,7 +12,7 @@ export default function Criteria() {
             <circle cx="67" cy="67" r="67" fill="url(#paint0_linear_70_6)"/>
             <defs>
             <linearGradient id="paint0_linear_70_6" x1="134" y1="67" x2="3.69183" y2="67" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#8F01FE"/>
+            <stop stopColor="#8F01FE"/>
             <stop offset="1" stop-color="#FF2674"/>
             </linearGradient>
              </defs>
