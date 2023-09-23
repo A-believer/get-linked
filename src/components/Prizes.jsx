@@ -8,16 +8,16 @@ import prizesIV from "../../public/prizeImageIV.png"
 
 export default function Prizes() {
   return (
-      <section className="flex flex-col lg:gap-y-[90px] justify-center items-center font-monts relative bg-[#000]/30">
+      <section className="flex flex-col lg:gap-y-[90px] justify-center items-center font-monts relative bg-[#000]/30 py-20">
           
-          <div className="xl:ml-[800px] lg:ml-[500px] ml-0 lg:mr-[200px] mr-0 mt-40 lg:mb-32 space-y-2.5 lg:w-full w-[50%] text-center">
+          <div className="xl:ml-[800px] ml-0 lg:mr-[200px] mr-0  xl:mb-32 lg:mb-0 mb-10 space-y-2.5 lg:w-full w-[50%] text-center">
               <Title text1={`Prizes`} text2={`Rewards`}/>
               <p className="md:text-base text-xs text-center">Highlight of the prizes or rewards for winners and for participants.
               </p>
           </div>
 
           <div className="flex xl:flex-row flex-col items-center gap-x-[30px] relative">
-              <Image src={prizesI} alt="prizesI" className="md:w-[548px] w-[321px] md:h-[482px] h-[282px] object-cover lg:self-start self-auto lg:mb-52 md:mb-36 mb-28" />
+              <Image src={prizesI} alt="prizesI" className="md:w-[548px] w-[321px] md:h-[482px] h-[282px] object-cover lg:self-start self-auto xl:mb-2 lg:mb-60 md:mb-52 mb-28" />
               
               <div className="relative flex md:gap-x-[30px] gap-x-3">
                   

@@ -7,7 +7,7 @@ export default function FAQs() {
   return (
     <section className="flex lg:flex-row-reverse flex-col border-b border-[#fff]/20 justify-between items-center gap-x-[80px] gap-y-[20px] lg:px-28 px-10 xl:py-20 lg:py-20 py-10 w-full">
           <div className="w-full h-full relative mx-auto">
-              <Image src={faqImage} alt="image" className="lg:w-full md:w-full w-full lg:h-full md:h-full h-full object-cover"/>
+              <Image src={faqImage} alt="image" className="lg:w-full md:w-full w-full lg:h-full md:h-full h-full object-contain"/>
       </div>
       
       <div className="flex flex-col lg:gap-y-4 gap-y-2 md:text-left text-center lg:w-[95%] w-full">

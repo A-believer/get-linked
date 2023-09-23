@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Criteria() {
   return (
-    <section className="flex lg:flex-row flex-col border-b border-[#fff]/20 justify-between items-center gap-x-[80px] gap-y-[20px] lg:px-28 px-20 xl:pt-20 lg:pt-10 py-5 w-full">
+    <section className="flex lg:flex-row flex-col border-b border-[#fff]/20 justify-between items-center gap-x-[80px] gap-y-[20px] lg:px-28 px-10 xl:py-20 lg:py-10 py-5 w-full">
           <div className="w-full h-full relative mx-auto">
               <Image src={criteriaImage} alt="image" className="lg:w-[710px] md:w-[510px] w-[332px] lg:h-[587px] md:h-[487px] h-[275px] object-contain"/>
         <svg className="absolute lg:flex hidden xl:top-[10px] lg:top-[90px] xl:left-[80px] lg:left-[30px] -z-[5]" xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134" fill="none">

@@ -3,6 +3,7 @@ import FAQs from "@/components/FAQs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Introduction from "@/components/Introduction";
+import Partners from "@/components/Partners";
 import Prizes from "@/components/Prizes";
 import Rule from "@/components/Rule";
 import TimeLine from "@/components/TimeLine";
@@ -17,7 +18,8 @@ export default function Home() {
       <Criteria />
       <FAQs />
       <TimeLine />
-      <Prizes/>
+      <Prizes />
+      <Partners/>
       <Footer/>
     </>
   )

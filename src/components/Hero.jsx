@@ -10,8 +10,8 @@ import Link from "next/link"
 
 export default function Hero() {
   return (
-      <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 xl:pl-32 lg:pl-20  xl:pr-0 px-8 border-b border-[#fff]/20">
-          <div className="relative flex flex-col self-end lg:mr-14 mr-">
+      <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 mx-0 xl:pl-32 lg:pl-20 px-8 border-b border-[#fff]/20">
+          <div className="relative flex flex-col md:self-end self-auto lg:mr-14 mr-0">
               <p className="font-monts font-bold italic lg::text-4xl md:text-lg text-xs lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
               <div className="lg:w-[253px] w-[115px] lg:h-[11px] h-[7px] self-end">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 17" fill="none">
@@ -20,7 +20,7 @@ export default function Hero() {
               </div>
           </div>
           
-          <div className="flex xl:flex-row flex-col lg:mt-10 mt-5 items-center justify-center">
+          <div className="flex xl:flex-row flex-col lg:mt-10 mt-5 items-center">
               
               <div className="relative">
                   
@@ -58,8 +58,8 @@ export default function Hero() {
               </div>
               
               <div className="relative">
-                  <Image src={perso} alt="person" className="lg:w-[828px] w-[420px] lg:h-[600px] h-[362px] object-contain"/>
-                  <Image src={star} alt="stars" className="lg:w-[667px] w-[338px] lg:h-[641px] h-[324px] object-contain absolute top-0 z-[9999] opacity-80"/>
+                  <Image src={perso} alt="person" className="lg:w-[700px] w-[420px] lg:h-[500px] h-[362px] object-contain"/>
+                  <Image src={star} alt="stars" className="lg:w-[550px] w-[250px] lg:h-[550px] h-[260px] object-contain absolute top-0 z-[9999] opacity-80"/>
               </div>
           
           </div>

@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-purI text-[#FFF] w-screen`}>
+      <body className={`bg-purI text-[#FFF] overflow-x-hidden w-screen mx-0`}>
         <Navbar/>
         {children}
       </body>
