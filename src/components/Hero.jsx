@@ -12,7 +12,7 @@ export default function Hero() {
   return (
       <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 xl:pl-32 lg:pl-20  xl:pr-0 px-8 border-b border-[#fff]/20">
           <div className="relative flex flex-col self-end lg:mr-14 mr-">
-              <p className="font-monts font-bold italic lg:text-4xl text-base lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
+              <p className="font-monts font-bold italic lg::text-4xl md:text-lg text-xs lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
               <div className="lg:w-[253px] w-[115px] lg:h-[11px] h-[7px] self-end">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255 17" fill="none">
   <path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke="#FF26B9" strokeWidth="5"/>
@@ -20,7 +20,7 @@ export default function Hero() {
               </div>
           </div>
           
-          <div className="flex xl:flex-row flex-col lg:mt-10 mt-5 items-center">
+          <div className="flex xl:flex-row flex-col lg:mt-10 mt-5 items-center justify-center">
               
               <div className="relative">
                   

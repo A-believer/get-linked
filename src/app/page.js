@@ -10,7 +10,7 @@ import TimeLine from "@/components/TimeLine";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Introduction />
       <Rule />
@@ -19,6 +19,6 @@ export default function Home() {
       <TimeLine />
       <Prizes/>
       <Footer/>
-    </main>
+    </>
   )
 }

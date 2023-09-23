@@ -71,7 +71,7 @@ export default function TimelineDesktop() {
               </div>
               
           {/* 6 */}
-              <div className='grid grid-cols-3'>
+              <div className='grid grid-cols-3 mb-20'>
               <p className='text-purIII lg:text-2xl text-xs font-bold self-end text-right'>November 18, 2023</p>
               <div className='flex flex-col items-center gap-y-3'>
                   <div className='lg:h-[137px] h-[77px] lg:w-1 w-[2px] bg-purIII'></div>

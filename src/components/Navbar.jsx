@@ -9,7 +9,7 @@ export default function Navbar() {
   const pathName = usePathname()
 
   return (
-    <nav className="font-monts xl:px-32 px-10 lg:pt-10 pt-8 pb-6 flex justify-between items-center w-full relative border-b border-[#fff]/20 z-[999]">
+    <nav className="font-monts xl:pl-32 px-10 lg:pt-10 pt-8 pb-6 flex justify-between items-center w-full border-b border-[#fff]/20">
       <Link href={`/`} className="font-clash lg:text-4xl text-2xl tracking-normal leading-9 font-bold">get<span className="text-purII">linked</span></Link>
 
       {/* Desktop Nav menu  */}

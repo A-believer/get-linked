@@ -8,7 +8,8 @@ import prizesIV from "../../public/prizeImageIV.png"
 
 export default function Prizes() {
   return (
-      <section className="bg-prizeBg bg-cover bg-no-repeat flex flex-col lg:gap-y-[90px] justify-center items-center font-monts relative">
+      <section className="flex flex-col lg:gap-y-[90px] justify-center items-center font-monts relative bg-[#000]/30">
+          
           <div className="xl:ml-[800px] lg:ml-[500px] ml-0 lg:mr-[200px] mr-0 mt-40 lg:mb-32 space-y-2.5 lg:w-full w-[50%] text-center">
               <Title text1={`Prizes`} text2={`Rewards`}/>
               <p className="md:text-base text-xs text-center">Highlight of the prizes or rewards for winners and for participants.
