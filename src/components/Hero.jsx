@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export default function Hero() {
   return (
-      <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 mx-0 xl:pl-32 lg:pl-20 px-8 border-b border-[#fff]/20">
+      <section className="flex flex-col gap-y-7 lg:mt-8 mt-5 mx-0 xl:pl-32 lg:pl-20 px-8 border-b border-[#fff]/20 relative">
           <div className="relative flex flex-col md:self-end self-auto lg:mr-14 mr-0">
               <p className="font-monts font-bold italic lg::text-4xl md:text-lg text-xs lg:whitespace-nowrap whitespace-normal">Igniting a Revolution in HR Innovation</p>
               <div className="lg:w-[253px] w-[115px] lg:h-[11px] h-[7px] self-end">
@@ -57,9 +57,9 @@ export default function Hero() {
               </div>   
               </div>
               
-              <div className="relative">
-                  <Image src={perso} alt="person" className="lg:w-[700px] w-[420px] lg:h-[500px] h-[362px] object-contain"/>
-                  <Image src={star} alt="stars" className="lg:w-[550px] w-[250px] lg:h-[550px] h-[260px] object-contain absolute top-0 z-[9999] opacity-80"/>
+              <div className="relative mt-10">
+                  <Image src={perso} alt="person" className="lg:w-[700px] w-[200px] lg:h-[500px] h-[162px] object-contain"/>
+                  <Image src={star} alt="stars" className="w-full h-full object-contain absolute top-0 opacity-80"/>
               </div>
           
           </div>

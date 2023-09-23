@@ -7,7 +7,7 @@ import {BiSolidPhoneCall} from "react-icons/bi"
 
 export default function Footer() {
   return (
-    <footer className="font-monts flex flex-col gap-y-14 sm:pt-20 sm:pb-14 py-10 lg:px-[200px] md:px-[80px] px-10">
+    <footer className="font-monts bg-[#100B20] flex flex-col gap-y-14 sm:pt-20 sm:pb-14 py-10 lg:px-[200px] md:px-[80px] px-10">
       <div className="flex flex-col md:flex-row lg:gap-x-[100px] sm:gap-x-[50px]  items-center gap-y-12">
         <div className="flex flex-col lg:gap-y-5 gap-y-2 justify-center self-start">
           <Link href={`/`} className="font-clash lg:text-3xl text-xl tracking-normal leading-9 font-bold">get<span className="text-purII">linked</span></Link>
