@@ -18,9 +18,9 @@ export default function Partners() {
 
       <div className="flex items-center border border-purIII rounded-md lg:px-28 md:px-8 px-6 lg:py-24 md:py-16 py-8 ">
         <div className="flex flex-col justify-between items-center md:space-y-6 space-y-3 lg:mb-0 md:mb-2">
-          <Image src={partnerI} alt="partnerI" className="lg:w-[120px] md:w-[75px] w-[32px] lg:h-[113px] md:h-[72px] h-[30px] object-contain" />
+          <Image loading="lazy" src={partnerI} alt="partnerI" className="lg:w-[120px] md:w-[75px] w-[32px] lg:h-[113px] md:h-[72px] h-[30px] object-contain" />
           <hr className="md:h-[4px] h-[2px] lg:w-[258px] md:w-[168px] w-[68px] bg-purIII mx-auto border-0"/>
-          <Image src={partnerIV} alt="partnerIV" className="lg:w-[147px] md:w-[80px] w-[39px] lg:h-[110px] md:h-[60px] h-[29px] object-contain"/>
+          <Image loading="lazy" src={partnerIV} alt="partnerIV" className="lg:w-[147px] md:w-[80px] w-[39px] lg:h-[110px] md:h-[60px] h-[29px] object-contain"/>
         </div>
 
         <div className="flex flex-col lg:gap-y-[160px] md:gap-y-[100px] gap-y-12">
@@ -29,9 +29,9 @@ export default function Partners() {
         </div>
           
         <div className="flex flex-col justify-between items-center md:space-y-6 space-y-3">
-          <Image src={partnerII} alt="partnerII" className="lg:w-[214px] md:w-[125px] w-[57px] lg:h-[40px] md:h-[25px] h-[11px] object-contain"/>
+          <Image loading="lazy" src={partnerII} alt="partnerII" className="lg:w-[214px] md:w-[125px] w-[57px] lg:h-[40px] md:h-[25px] h-[11px] object-contain"/>
           <hr  className="md:h-[4px] h-[2px] lg:w-[258px] md:w-[168px] w-[68px] bg-purIII mx-auto border-0"/>
-          <Image src={partnerV} alt="partnerV" className="lg:w-[214px] md:w-[125px] w-[57px] lg:h-[40px] md:h-[25px] h-[11px] object-contain"/>
+          <Image loading="lazy" src={partnerV} alt="partnerV" className="lg:w-[214px] md:w-[125px] w-[57px] lg:h-[40px] md:h-[25px] h-[11px] object-contain"/>
         </div>
 
         <div className="flex flex-col lg:gap-y-[160px] md:gap-y-[100px] gap-y-12">
@@ -40,9 +40,9 @@ export default function Partners() {
         </div>
 
         <div className="flex flex-col justify-between items-center md:space-y-6 space-y-3 lg:mb-16 md:mb-12 mb-2">
-          <Image src={partnerIII} alt="partnerIII" className="lg:w-[132px] md:w-[75px] w-[35px] lg:h-[107px] md:h-[60px] h-[28px] object-contain" />
+          <Image loading="lazy" src={partnerIII} alt="partnerIII" className="lg:w-[132px] md:w-[75px] w-[35px] lg:h-[107px] md:h-[60px] h-[28px] object-contain" />
           <hr  className="md:h-[4px] h-[2px] lg:w-[258px] md:w-[168px] w-[68px] bg-purIII mx-auto border-0"/>
-          <Image src={partnerVI} alt="partnerVI" className="lg:w-[230px] md:w-[120px] w-[69px] lg:h-[45px] md:h-[30px] h-[21px] object-contain"/>
+          <Image loading="lazy" src={partnerVI} alt="partnerVI" className="lg:w-[230px] md:w-[120px] w-[69px] lg:h-[45px] md:h-[30px] h-[21px] object-contain"/>
         </div>
       </div>
     </section>

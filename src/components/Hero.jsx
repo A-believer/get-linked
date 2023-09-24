@@ -24,7 +24,7 @@ export default function Hero() {
               
               <div className="relative">
                   
-                  <Image src={bulb} alt="bulb" className="lg:w-[53px] md:w-[35px] w-[18px] lg:h-[73px] md:h-[45px] h-[26px] object-contain absolute xl:-top-[35px] lg:-top-[45px] -top-[10px] xl:right-[50px] lg:right-[140px] md:right-[100px] right-[70px]" />
+                  <Image loading="lazy" src={bulb} alt="bulb" className="lg:w-[53px] md:w-[35px] w-[18px] lg:h-[73px] md:h-[45px] h-[26px] object-contain absolute xl:-top-[35px] lg:-top-[45px] -top-[10px] xl:right-[50px] lg:right-[140px] md:right-[100px] right-[70px]" />
                   
                   <div className="text-center xl:text-left flex flex-col gap-y-2">
                       
@@ -32,8 +32,8 @@ export default function Hero() {
                       
                       <p className="lg:text-[80px] md:text-[64px] sm:text-[40px] text-[32px] font-clash font-bold whitespace-nowrap">Hackathon{" "}
                     <span className="text-purII">1.0</span>
-                    <Image src={chain} alt="chain" className="lg:w-[86px] w-8 lg:h-[86px] h-8 object-contain inline"/>
-                    <Image src={bomb} alt="bomb" className="lg:w-[58px] w-[22px] lg:h-[58px] h-[22px] object-contain inline"/>
+                    <Image loading="lazy" src={chain} alt="chain" className="lg:w-[86px] w-8 lg:h-[86px] h-8 object-contain inline"/>
+                    <Image loading="lazy" src={bomb} alt="bomb" className="lg:w-[58px] w-[22px] lg:h-[58px] h-[22px] object-contain inline"/>
                   </p>
                   <p className="pb-6 font-monts lg:w-[59%] w-full">
                     Participate in getlinked tech Hackathon 2023 stand 
@@ -58,8 +58,8 @@ export default function Hero() {
               </div>
               
               <div className="relative mt-10">
-                  <Image src={perso} alt="person" className="lg:w-[700px] w-[200px] lg:h-[500px] h-[162px] object-contain"/>
-                  <Image src={star} alt="stars" className="w-full h-full object-contain absolute top-0 opacity-80"/>
+                  <Image loading="lazy" src={perso} alt="person" className="lg:w-[700px] w-[200px] lg:h-[500px] h-[162px] object-contain"/>
+                  <Image loading="lazy" src={star} alt="stars" className="w-full h-full object-contain absolute top-0 opacity-80"/>
               </div>
           
           </div>

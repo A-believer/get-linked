@@ -7,13 +7,13 @@ export default function Criteria() {
   return (
     <section className="flex lg:flex-row flex-col border-b border-[#fff]/20 justify-between items-center gap-x-[80px] gap-y-[20px] lg:px-28 px-10 xl:py-20 lg:py-10 py-5 w-full">
           <div className="w-full h-full relative mx-auto">
-              <Image src={criteriaImage} alt="image" className="lg:w-[710px] md:w-[510px] w-[332px] lg:h-[587px] md:h-[487px] h-[275px] object-contain"/>
+              <Image loading="lazy" src={criteriaImage} alt="image" className="lg:w-[710px] md:w-[510px] w-[332px] lg:h-[587px] md:h-[487px] h-[275px] object-contain"/>
         <svg className="absolute lg:flex hidden xl:top-[10px] lg:top-[90px] xl:left-[80px] lg:left-[30px] -z-[5]" xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134" fill="none">
             <circle cx="67" cy="67" r="67" fill="url(#paint0_linear_70_6)"/>
             <defs>
             <linearGradient id="paint0_linear_70_6" x1="134" y1="67" x2="3.69183" y2="67" gradientUnits="userSpaceOnUse">
             <stop stopColor="#8F01FE"/>
-            <stop offset="1" stop-color="#FF2674"/>
+            <stop offset="1" stopColor="#FF2674"/>
             </linearGradient>
              </defs>
         </svg>

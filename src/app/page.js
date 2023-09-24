@@ -8,21 +8,25 @@ import Privacy from "@/components/Privacy";
 import Prizes from "@/components/Prizes";
 import Rule from "@/components/Rule";
 import TimeLine from "@/components/TimeLine";
+import { Suspense } from "react";
 
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Introduction />
-      <Rule />
-      <Criteria />
-      <FAQs />
-      <TimeLine />
-      <Prizes />
-      <Partners />
-      <Privacy/>
-      <Footer/>
+      <Suspense fallback={<p>Loading...</p>}>
+        <Hero />
+        <Introduction />
+        <Rule />
+        <Criteria />
+        <FAQs />
+        <TimeLine />
+        <Prizes />
+        <Partners />
+        <Privacy/>
+        <Footer/>
+      </Suspense>
+      
     </>
   )
 }
