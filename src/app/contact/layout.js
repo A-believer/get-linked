@@ -3,7 +3,7 @@
 export default function Layout({ children }) {
   return (
     
-      <section className="text-6xl">{children}</section>
+      <main className="">{children}</main>
    
   )
 }
